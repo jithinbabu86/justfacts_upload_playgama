@@ -1,0 +1,12 @@
+fixes
+Platform mute signal ignored.
+The game does not respond to the platform mute request. This is required for correct ad display and overlay behavior.
+https://wiki.playgama.com/playgama/bridge-sdk/api/platform#is-audio-enabled
+
+Platform pause signal ignored.
+The game continues running when a system overlay is opened. Subscribe to the SDK pause event and stop the game loop.
+https://wiki.playgama.com/playgama/bridge-sdk/api/platform#pause
+
+This game appears to be fully AI-generated.
+AI for code/logic is welcome, but titles with raw AI graphics are rarely approved. Please add human visual refinement to pass moderation.
+
